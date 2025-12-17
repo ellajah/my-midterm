@@ -99,3 +99,43 @@ footer, div p center {
     margin-top: 20px;
     color: #555;
 }
+/* DARK MODE */
+.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+/* Text colors in dark mode */
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode p,
+.dark-mode span,
+.dark-mode dt,
+.dark-mode dd {
+    color: #f5f5f5;
+}
+
+/* Links in dark mode */
+.dark-mode a {
+    color: #90caf9;
+}
+
+/* Table background */
+.dark-mode table {
+    background-color: #1e1e1e;
+}
+
+/* Form inputs in dark mode */
+.dark-mode input,
+.dark-mode textarea {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+/* Buttons in dark mode */
+.dark-mode button,
+.dark-mode input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+}
